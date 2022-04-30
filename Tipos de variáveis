@@ -1,0 +1,70 @@
+// Númerico
+let num1 = 1.342
+
+// Pode ser especificado com a função Number(<valor>)
+let num2 = Number('2.0')
+console.log(num1, num2)
+console.log(Number.isInteger(num1))
+console.log(Number.isInteger(num2))
+
+// Formatação de casas decimais
+console.log(num1.toFixed(2))
+
+// Existem imprecisões ao calcular com floats
+console.log(0.1 + 0.2)
+
+// Devolve NaN (Not a Number) em operações sem números
+console.log("Hello World" * 2)
+
+
+
+// String
+let nome = "Hairo"
+let sobrenome = "Newdawn"
+
+// Função para encontrar o elemento no índice <String>.charAt(<índice>)
+console.log(nome.charAt(3))
+console.log(nome.charAt(0))
+
+// Função para encontrar o índice do elemento
+console.log(nome.indexOf('o'))
+
+// Função para concatenar
+console.log('Nome: '.concat(nome).concat('.'))
+// Também podemos concatenar com +
+console.log('Nome: ' + nome + '.')
+
+// Função para transformar uma string em um array (split)
+console.log('Hairo,Aratsu,Nicky'.split(','))
+
+
+
+// Boolean
+let interruptor = true
+let luz = true
+console.log(interruptor)
+
+
+// Array - vetores
+let lista = ['Hairo', 'Aratsu', 'Nicky']
+// Tratados com objetos
+console.log(typeof lista)
+console.log(lista[0])
+console.log(lista.length + ' elementos')
+
+// Objetos - Vetor com o formato de chave-valor
+let produto1 = {}
+produto1.nome = 'Computador'
+produto1.preco = 3000
+produto1['Desconto'] = 400
+
+let produto2 = {
+    nome : 'Computador 2',
+    preco : 3000,
+    Desconto : 300
+}
+
+delete produto2.Desconto
+
+console.log(produto1)
+console.log(produto2)
