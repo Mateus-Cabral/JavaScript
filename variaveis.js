@@ -1,7 +1,7 @@
 //declaração de variáveis em JavaScript
 //var <nome_var> = <valor>
 
-//forma mais atual:
+//forma mais "atual":
 //let <nome_var> = <valor>
 
 //atribuição é feita com =
@@ -9,6 +9,7 @@
 
 var nome = "Caneta"
 var quantidade = 10
+
 let preco = 6.4
 let imposto = 1.5
 let precoTotal = (preco + imposto) * quantidade
