@@ -43,6 +43,9 @@ console.log('Hairo,Aratsu,Nicky'.split(','))
 let interruptor = true
 let luz = true
 console.log(interruptor)
+a = 3
+console.log(!!a) // comando para forçar um valor a virar boolean (! = not)
+
 
 
 // Array - vetores
@@ -51,6 +54,8 @@ let lista = ['Hairo', 'Aratsu', 'Nicky']
 console.log(typeof lista)
 console.log(lista[0])
 console.log(lista.length + ' elementos')
+
+
 
 // Objetos - Vetor com o formato de chave-valor
 let produto1 = {}
